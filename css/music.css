@@ -1,0 +1,112 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: block;
+  margin: 30px auto;
+  width: 30%;
+  padding-bottom: 20px;
+  /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2); */
+
+
+}
+
+.music-img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: normal;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.music {
+  background-color: #eeeeee;
+  display: block;
+  margin: 30px auto 50px;
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+  padding: 30px 10px;
+  position: relative;
+
+}
+
+.music-icon {
+  display: inline-block;
+  margin: auto;
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  top: 17px;
+
+}
+
+.desc {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  left: 5px;
+  top: 17px;
+
+}
+
+.ann {
+  font-weight: bold;
+}
+
+a {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+input[type="submit"] {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto 10px;
+  width: 80%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(225, 100%, 98%);
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  display: block;
+  margin: 30px auto 10px;
+  width: 80%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: bold;
+}
